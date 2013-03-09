@@ -1,0 +1,11 @@
+class Algoritmo{
+    private Aluno A, B;
+
+    public Algoritmo(Aluno novo){
+        A=novo;
+    }
+    
+    public int compareTo(Comparavel novo){
+        return 0;
+    }
+}

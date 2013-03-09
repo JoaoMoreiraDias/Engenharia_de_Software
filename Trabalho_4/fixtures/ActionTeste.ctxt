@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.params=
+comment0.target=ActionTeste()
+comment1.params=novo
+comment1.target=void\ tipo(int)
+comment2.params=novo
+comment2.target=void\ vencimento(int)
+comment3.params=novo
+comment3.target=void\ horas(int)
+comment4.params=nova
+comment4.target=void\ duracao(double)
+comment5.params=
+comment5.target=boolean\ colaborador()
+comment6.params=
+comment6.target=boolean\ adicionarHoras()
+comment7.params=
+comment7.target=double\ calculaVencimento()
+numComments=8

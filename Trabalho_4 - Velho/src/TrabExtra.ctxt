@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=tipo\ duracao
+comment0.target=TrabExtra(int,\ double)
+comment1.params=vencimentoBase
+comment1.target=double\ calcula(double)
+comment2.params=
+comment2.target=double\ getDuracao()
+comment3.params=duracao
+comment3.target=void\ setDuracao(double)
+comment4.params=
+comment4.target=int\ getTipo()
+comment5.params=tipo
+comment5.target=void\ setTipo(int)
+numComments=6

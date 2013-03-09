@@ -1,0 +1,22 @@
+package GUI;
+
+import java.awt.Graphics;
+import java.awt.image.BufferedImage;
+
+import javax.swing.JPanel;
+
+public class PainelMaquina extends JPanel {
+	private BufferedImage imagem;
+	
+	public PainelMaquina() {
+		super();
+	}
+	
+	public void setImagem(BufferedImage imagem) {
+		this.imagem = imagem;
+	}
+	
+	public void paint( Graphics gc) {
+		gc.drawImage( imagem, 0, 0, null);
+	}
+}

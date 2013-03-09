@@ -1,0 +1,9 @@
+-Relatorio de rros deve ser feito o mais rapido possivel, senão podes escapar detalhes mais tarde.
+
+ESTA TUDO NOS SLIDES
+
+-O relaorio pode passar por varios estados, e voltar a estados anteriors.
+
+-A infromação deve chegar ao destinatario o masi rapido possivel, não deve ficar pressa em burocrasia.
+
+-Tem que haver fiscalização de erros para ver se todos os erros sao resolvidos.

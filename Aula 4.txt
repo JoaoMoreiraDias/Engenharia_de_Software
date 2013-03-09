@@ -1,0 +1,19 @@
+Desenho de casos de teste
+
+O bom cado de teste é aquele que dá informação, caso o teste passe ou não. Reduzindo incerteza.
+"O que é que passo a saber quando estar isto?"
+
+---
+Um teste não pode ser redundante.
+
+O resultado tem que ser evidente, ou passo ou não.
+
+Obejectivo principal:
+Encontrar erros relevantes a todos, e ajudar a resolver os testes.
+
+Um bom teste dá resultados mais significativos e mostra melhor os erros, é mais realista nos resultados, é credivel, é mais facil de avaliar, é util para o diagonostico(é facil de reproduzir), é mais informativo é adequadamente complexo.
+
+"Testas o maximo com o minimo de trabalho mas atingir os obejectivos."
+
+---Esta tudo nos slides---
+

@@ -1,0 +1,60 @@
+import static org.junit.Assert.*;
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
+
+/**
+ * The test class MaquinaTest.
+ *
+ * @author  (your name)
+ * @version (a version number or a date)
+ */
+public class MaquinaTest
+{
+    /**
+     * Default constructor for test class MaquinaTest
+     */
+    public MaquinaTest()
+    {
+    }
+
+    /**
+     * Sets up the test fixture.
+     *
+     * Called before every test case method.
+     */
+    @Before
+    public void setUp()
+    {
+    }
+
+    /**
+     * Tears down the test fixture.
+     *
+     * Called after every test case method.
+     */
+    @After
+    public void tearDown()
+    {
+    }
+
+    
+    //Tem troco e tem que dat troco
+    @Test
+    public void teste1()
+    {
+        Maquina maquina1 = new Maquina(1, 1, 1, 1, 1, 1);
+        assertEquals("0;0;0;0;1;0;", maquina1.troco(1, 2));
+    }
+
+   
+    //Nao tem que dar troco
+    @Test
+    public void teste2()
+    {
+        Maquina maquina1 = new Maquina(1, 1, 1, 1, 1, 1);
+        assertEquals("0;0;0;0;0;0;", maquina1.troco(1, 1));
+    }
+}
+
+

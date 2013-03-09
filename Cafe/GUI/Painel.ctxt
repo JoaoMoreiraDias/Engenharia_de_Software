@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Painel()
+comment1.params=e
+comment1.target=void\ windowClosing(java.awt.event.WindowEvent)
+comment2.params=e
+comment2.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment3.params=e
+comment3.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment4.params=e
+comment4.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment5.params=obs\ obj
+comment5.target=void\ update(java.util.Observable,\ java.lang.Object)
+comment6.params=
+comment6.target=void\ run()
+comment7.params=
+comment7.target=int\ saiOuNao()
+comment8.params=texto
+comment8.target=javax.swing.JButton\ getBotao(java.lang.String)
+comment9.params=args
+comment9.target=void\ main(java.lang.String[])
+numComments=10

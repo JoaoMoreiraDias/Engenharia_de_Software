@@ -1,0 +1,63 @@
+import static org.junit.Assert.*;
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
+
+/**
+ * The test class MatriculaTest.
+ *
+ * @author  (your name)
+ * @version (a version number or a date)
+ */
+public class MatriculaTest
+{
+    /**
+     * Default constructor for test class MatriculaTest
+     */
+    public MatriculaTest()
+    {
+    }
+
+    /**
+     * Sets up the test fixture.
+     *
+     * Called before every test case method.
+     */
+    @Before
+    public void setUp()
+    {
+    }
+
+    /**
+     * Tears down the test fixture.
+     *
+     * Called after every test case method.
+     */
+    @After
+    public void tearDown()
+    {
+    }
+
+    @Test
+    public void teste()
+    {
+        Matricula matricul1 = new Matricula("12-AF-98");
+        assertEquals(false, matricul1.verificar());
+        
+        Matricula matricul2 = new Matricula("12-aF-98");
+        assertEquals(false, matricul2.verificar());
+        
+        Matricula matricul3 = new Matricula("12-Af-98");
+        assertEquals(false, matricul3.verificar());
+        
+        Matricula matricul4 = new Matricula("120-ZF-98");
+        assertEquals(false, matricul4.verificar());
+        
+        Matricula matricul5 = new Matricula("12-#F-98");
+        assertEquals(false, matricul5.verificar());
+        
+        Matricula matricul6 = new Matricula("02-AF-7");
+        assertEquals(false, matricul6.verificar());
+    }
+}
+

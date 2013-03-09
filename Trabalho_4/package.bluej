@@ -1,0 +1,26 @@
+#BlueJ package file
+package.editor.height=279
+package.editor.width=454
+package.editor.x=668
+package.editor.y=121
+package.numDependencies=0
+package.numTargets=2
+package.showExtends=true
+package.showUses=true
+project.charset=windows-1252
+readme.editor.height=700
+readme.editor.width=900
+readme.editor.x=0
+readme.editor.y=0
+target1.height=62
+target1.name=fixtures
+target1.type=PackageTarget
+target1.width=80
+target1.x=160
+target1.y=10
+target2.height=62
+target2.name=src
+target2.type=PackageTarget
+target2.width=80
+target2.x=70
+target2.y=10

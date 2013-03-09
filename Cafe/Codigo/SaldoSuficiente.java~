@@ -1,0 +1,16 @@
+package codigo;
+
+public class SaldoSuficiente extends Estado
+{ 
+    public SaldoSuficiente(Maquina maquina) {
+        super(maquina);
+    }
+    
+    public void click(){
+        maquina.setEstado(maquina.SS);
+    }
+    
+    public void timeout(){
+        maquina.setEstado(maquina.SI);
+    }
+}

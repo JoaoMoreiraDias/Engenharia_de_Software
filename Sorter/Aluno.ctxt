@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=numero
+comment0.target=Aluno(int)
+comment1.params=novo
+comment1.target=int\ compararCom(IComparavel)
+comment2.params=
+comment2.target=int\ getNumero()
+comment3.params=numerar
+comment3.target=void\ setNumero(int)
+numComments=4

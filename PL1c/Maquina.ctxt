@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=d005\ d010\ d020\ d050\ d1\ d2
+comment0.target=Maquina(int,\ int,\ int,\ int,\ int,\ int)
+comment1.params=deve\ dado
+comment1.target=java.lang.String\ troco(double,\ double)
+comment2.params=dado\ deve
+comment2.target=boolean\ temTroco(double,\ double)
+numComments=3

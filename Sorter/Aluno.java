@@ -1,0 +1,19 @@
+public class Aluno implements IComparavel{
+    private int numero;
+    
+    public Aluno(int numero){
+        this.numero=numero;
+    }
+
+    public int compararCom(IComparavel novo){
+        return numero-((Aluno) novo).getNumero();
+    }
+
+    public int getNumero(){
+        return numero;
+    }
+
+    public void setNumero(int numerar){
+        this.numero=numero;
+    }
+}

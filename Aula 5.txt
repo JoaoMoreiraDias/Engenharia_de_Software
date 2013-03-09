@@ -1,0 +1,35 @@
+Um programa tem que validar o valor de uma cariavel do tipo String, que deve amazenar uma matricula de automóvel, o formato deve ser o seguinte: dois caracteres numericos (0...9), um traço, dois caracteres alfabeticos (A...Z menos K, W e Y), 
+
+12-34-56
+NN-LL-NN
+
+Testar que:
+Não há uma letra na primeira posição.
+Não há uma letra na segunda posição.
+Não há numeros na terçeira posição.
+Não há numeros na quarta posição.
+Não há uma letra na quinta posição.
+Não há uma letra na sexta posição.
+
+Não há a letra K na terçeira posição.
+Não há a letra W na terçeira posição.
+Não há a letra Y na terçeira posição.
+Não há a letra K na quarta posição.
+Não há a letra W na quarta posição.
+Não há a letra Y na quarta posição.
+
+O numero na primeira posição tem que ser inteiro.
+O numero na segunda posição tem que ser inteiro.
+O numero na quinta posição tem que ser inteiro.
+O numero na sexta posição tem que ser inteiro.
+
+Não há simbolos na primeira posição.
+Não há simbolos na segunda posição.
+Não há simbolos na terçeira posição.
+Não há simbolos na quarta posição.
+Não há simbolos na quinta posição.
+Não há simbolos na sextra posição.
+
+
+
+Tem que ser tudo valido.

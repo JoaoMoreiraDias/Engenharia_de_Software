@@ -1,0 +1,83 @@
+
+
+import static org.junit.Assert.*;
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
+
+/**
+ * The test class TrianguloTest.
+ *
+ * @author  (your name)
+ * @version (a version number or a date)
+ */
+public class TrianguloTest
+{
+    /**
+     * Default constructor for test class TrianguloTest
+     */
+    public TrianguloTest()
+    {
+    }
+
+    /**
+     * Sets up the test fixture.
+     *
+     * Called before every test case method.
+     */
+    @Before
+    public void setUp()
+    {
+    }
+
+    /**
+     * Tears down the test fixture.
+     *
+     * Called after every test case method.
+     */
+    @After
+    public void tearDown()
+    {
+    }
+
+    @Test
+    public void t123()
+    {
+        Triangulo triangul1 = new Triangulo(1, 2, 3);
+        assertEquals("Escaleno", triangul1.getResultado());
+        
+        Triangulo triangul2 = new Triangulo(2, 1, 3);
+        assertEquals("Escaleno", triangul2.getResultado());
+        
+        Triangulo triangul3 = new Triangulo(3, 2, 1);
+        assertEquals("Escaleno", triangul3.getResultado());
+        
+        Triangulo triangul4 = new Triangulo(1, 1, 1);
+        assertEquals("Equilatero", triangul4.getResultado());
+        
+        Triangulo triangul5 = new Triangulo(2, 2, 2);
+        assertEquals("Equilatero", triangul5.getResultado());
+        
+        Triangulo triangul6 = new Triangulo(3, 3, 3);
+        assertEquals("Equilatero", triangul6.getResultado());
+        
+        Triangulo triangul7 = new Triangulo(1, 1, 2);
+        assertEquals("Isosceles", triangul7.getResultado());
+        
+        Triangulo triangul8 = new Triangulo(2, 1, 1);
+        assertEquals("Isosceles", triangul8.getResultado());
+        
+        Triangulo triangul9 = new Triangulo(2, 2, 1);
+        assertEquals("Isosceles", triangul9.getResultado());
+        
+        Triangulo triangul0 = new Triangulo(0, 0, 0);
+        assertEquals("Erro", triangul9.getResultado());
+        
+        Triangulo triangul11 = new Triangulo(-1, -2, -3);
+        assertEquals("Erro", triangul9.getResultado());
+        
+        Triangulo triangul2 = new Triangulo(1, -1, 0);
+        assertEquals("Erro", triangul9.getResultado());
+    }
+}
+

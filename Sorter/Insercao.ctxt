@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Insercao()
+comment1.params=lista
+comment1.target=void\ ordenar(IComparavel[])
+numComments=2

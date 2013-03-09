@@ -1,0 +1,4 @@
+public interface IComparavel
+{
+    int compararCom(Icomparavel novo);
+}

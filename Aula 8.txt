@@ -1,0 +1,6 @@
+Ver slides, maioriratiamente ver a documentação do Java.
+
+O java não suporta herança multipla ao contrairo de outras linguagens como Python. Surgem problemas com herança multipla quando existe metudos com o mesmo nome em multiplsa superclasses.
+
+Métodos abestractos tenhem a plavra abstract na assinatura e não tenhem corpo.
+

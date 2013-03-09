@@ -1,0 +1,24 @@
+//RowFixture – Para testar resultados que são coleções de objetos
+
+package fixtures;
+
+import fit.RowFixture;
+import src.TrabExtra;
+import src.Colaborador;
+
+public class RowTeste extends RowFixture{
+    public RowTeste()
+    {
+        
+    }
+
+    public Class getTargetClass()
+    {
+        return null;
+    }
+
+    public Object[] query() throws Exception
+    {
+        return null;
+    }
+}	

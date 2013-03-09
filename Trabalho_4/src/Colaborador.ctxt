@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.params=vencimentoBase\ horasBase
+comment0.target=Colaborador(double,\ double)
+comment1.params=
+comment1.target=java.lang.Double\ calculaVencimento()
+comment2.params=
+comment2.target=java.util.ArrayList\ getTrabExtra()
+comment3.params=novo
+comment3.target=void\ addTrabExtra(TrabExtra)
+comment4.params=
+comment4.target=java.lang.String\ getNome()
+comment5.params=nome
+comment5.target=void\ setNome(java.lang.String)
+comment6.params=
+comment6.target=double\ getVencimentoBase()
+comment7.params=vencimentoBase
+comment7.target=void\ setVencimentoBase(double)
+comment8.params=
+comment8.target=double\ getHorasBase()
+comment9.params=horasBase
+comment9.target=void\ setHorasBase(double)
+numComments=10

@@ -1,0 +1,35 @@
+package Codigo;
+
+import java.util.Observable;
+
+public class Maquina extends Observable
+{
+    public final Estado TIRAR = new TirarCafe(this);
+    public final Estado SS = new SaldoSuficiente(this);
+    public final Estado SI = new SaldoInsuficiente(this);
+    
+    private Estado estado = SI;
+    
+    protected void setEstado(Estado estado)
+    {
+        this.estado=estado;
+        setChanged();
+        notifyObservers();
+    }
+    
+     public String status() {
+        return estado.status();
+    }
+    
+    public void timeout() {
+        estado.timeout();
+    }
+    
+    public void complete() {
+        estado.complete();
+    }
+    
+    public void click() {
+        estado.click();
+    }
+}

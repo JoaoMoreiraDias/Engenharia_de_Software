@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=Smatricula
+comment0.target=Matricula(java.lang.String)
+comment1.params=
+comment1.target=boolean\ verificar()
+comment2.params=
+comment2.target=boolean\ verificarTracos()
+comment3.params=
+comment3.target=boolean\ verificarTamanho()
+comment4.params=numero
+comment4.target=boolean\ verificarNumeros(java.lang.String)
+comment5.params=numero
+comment5.target=boolean\ verificarNumerosPossiveis(int)
+comment6.params=letras
+comment6.target=boolean\ verificarLetrasPossiveis(java.lang.String)
+numComments=7

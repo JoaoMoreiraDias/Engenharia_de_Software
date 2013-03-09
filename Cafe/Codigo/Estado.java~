@@ -1,0 +1,27 @@
+package Codigo;
+
+public abstract class Estado
+{
+    protected Maquina maquina;
+
+    public Estado(Maquina maquina)
+    {
+        this.maquina=maquina;
+    }
+
+    public abstract void click();
+    
+    public void complete(){
+    }
+    
+    public String toString()
+    {
+        String nomeClass=getEstado();
+        return nomeClass;
+    }
+    
+    public void timeout(){
+    }
+    
+    public abstract String getEstado();
+}

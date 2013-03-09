@@ -1,0 +1,58 @@
+
+
+import static org.junit.Assert.*;
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
+
+/**
+ * The test class SimFraTest.
+ *
+ * @author  (your name)
+ * @version (a version number or a date)
+ */
+public class SimFraTest
+{
+    /**
+     * Default constructor for test class SimFraTest
+     */
+    public SimFraTest()
+    {
+    }
+
+    /**
+     * Sets up the test fixture.
+     *
+     * Called before every test case method.
+     */
+    @Before
+    public void setUp()
+    {
+    }
+
+    /**
+     * Tears down the test fixture.
+     *
+     * Called after every test case method.
+     */
+    @After
+    public void tearDown()
+    {
+    }
+
+    @Test
+    public void teste1()
+    {
+        SimFra simFra1 = new SimFra(12, 8);
+        assertEquals(3/2, simFra1.simplificar());
+    }
+
+    @Test
+    public void teste2()
+    {
+        SimFra simFra1 = new SimFra(12, 6);
+        assertEquals(2/1, simFra1.simplificar());
+    }
+}
+
+
